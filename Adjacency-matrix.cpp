@@ -10,7 +10,7 @@ void displayMatrix(int v) {
       for(j = 0; j < v; j++) {
          cout << vertArr[i][j] << " ";
       }
-      cout << endl;
+     cout << endl;
    }
 }
 void add_edge(int u, int v) { //function to add edge into the matrix
